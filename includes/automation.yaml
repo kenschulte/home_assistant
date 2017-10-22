@@ -1,0 +1,10 @@
+# ==============================
+# Automation
+# ==============================
+- !include automation/office_motion_detected.yaml
+#- !include automation/office_door_open.yaml
+#- !include automation/office_door_closed.yaml
+#- !include automation/turn_off_wemo_upstairs.yaml
+#- !include automation/turn_on_wemo_upstairs.yaml
+#- !include automation/hallway_motion.yaml
+
