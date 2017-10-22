@@ -1,0 +1,7 @@
+# ==============================
+# scripts
+# ==============================
+restart_ha: !include includes/scripts/restart_home_assistant.yaml
+turn_onchristmaslights: !include includes/scripts/turn_on_christmas_tree.yaml
+nobody_home: !include includes/scripts/nobody_home.yaml
+home_shutdown: !include includes/scripts/house_shutdown.yaml
