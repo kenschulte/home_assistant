@@ -1,0 +1,4 @@
+# ==============================
+# scripts
+# ==============================
+restart_ha: !include scripts/restart_home_assistant.yaml
