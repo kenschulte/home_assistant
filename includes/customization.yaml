@@ -1,0 +1,41 @@
+####ZWAVE Devices####
+#############Go Control Door####
+sensor.linear_wapirz1_motion_sensor_alarm_level_2_1:
+  icon: mdi:security
+  friendly_name: "GoControl PIR Sensor 1"
+sensor.linear_wapirz1_motion_sensor_alarm_type_2_0:
+  hidden: true
+sensor.linear_wapirz1_motion_sensor_burglar_2_10:
+  hidden: true
+sensor.linear_wapirz1_motion_sensor_sourcenodeid_2_2:
+  hidden: true
+sensor.linear_wapirz1_motion_sensor_temperature_2_1:
+  icon: mdi:thermometer
+  friendly_name: "GoControl PIR Temperature"
+
+# doors
+sensor.linear_unknown_type2001_id0102_alarm_level_3_1:
+  friendly_name: 'Office Door'
+sensor.linear_unknown_type2001_id0102_alarm_level_4_1:
+  friendly_name: 'Front Door'
+sensor.linear_unknown_type2001_id0102_alarm_level_5_1:
+  friendly_name: 'Kitchen Door'
+sensor.linear_unknown_type2001_id0102_alarm_level_6_1:
+  friendly_name: 'Sliding Glass door'
+sensor.linear_unknown_type2001_id0102_alarm_level_7_1:
+  friendly_name: 'Side Garage Door'
+
+#Wemo Outlets
+switch.livingroom:
+  friendly_name: "Wemo Outlet (1)"
+switch.basement:
+  friendly_name: "Wemo Outlet (2)"
+
+switch.hank_unknown_type0101_id0005_switch_10_0:
+  friendly_name: "livingroom Outlet (1)"
+
+switch.linear_unknown_type2005_id0503_switch_8_0:
+  friendly_name: "garage siren"
+
+switch.ge_12722_onoff_relay_switch_switch_11_0:
+  friendly_name: "garage light"
