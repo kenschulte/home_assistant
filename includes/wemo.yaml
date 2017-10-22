@@ -1,0 +1,7 @@
+#########################
+# Belkin WeMo
+#########################
+
+static:
+  - !secret wemo_upstairs
+  - !secret wemo_downstairs
